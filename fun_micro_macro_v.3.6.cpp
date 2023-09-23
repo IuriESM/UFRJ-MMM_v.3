@@ -5,7 +5,7 @@
 #define FAST_FULL
 #include "fun_support.h"
 
-//Create global pointers
+//Create global pointers - Teste do Git
 object *country;
 object *external;
 object *government;
@@ -54,3 +54,4 @@ void close_sim( void )
 {
 // close simulation special commands go here
 }
+
