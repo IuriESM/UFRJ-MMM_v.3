@@ -5,7 +5,7 @@
 #define FAST_FULL
 #include "fun_support.h"
 
-//Create global pointers - Teste do Git
+//Create global pointers
 object *country;
 object *external;
 object *government;

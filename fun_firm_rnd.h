@@ -6,7 +6,7 @@ EQUATION("Firm_Frontier_Productivity")
 The new productivity is the maximum among the previous one and the ones possibly obtained imitation and innovation.  
 */
 	v[0]=CURRENT;       							//frontier productivity of the firm in the last period
-	v[1]=V("Firm_Imitation_Productivity");          //productivity achievied with imitation in that period
+	v[1]=V("Firm_Imitation_Productivity");          //productivity achievied with imitation in that period - Imitação
 	v[2]=V("Firm_Innovation_Productivity");         //productivity achievied with innovation in that period
 	v[3]=max(v[0],max(v[1],v[2]));             		//current frontier productivity is the maximum between the three
 RESULT(v[3])
